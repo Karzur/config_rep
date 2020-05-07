@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script language = "JavaScript">
+            function show_text (given_param){
+                document.write ("Your text is: " , given_param,);
+            }
+            function addition (number1, number2){
+                return number1 + number2;
+            }
+        </script>
+    </head>
+    <body>
+        <h3>
+            <script language = "JavaScript">
+                show_text(prompt("Write something and it will appear on the screen: ",""));
+            </script>
+            <p>
+            </p>
+            <script language = "JavaScript">
+                var temp1 = prompt("Give first number", "");
+                var temp2 = prompt("Give second number", "");
+                var Num_n1 = parseFloat(temp1);
+                var Num_n2 = parseFloat(temp2);
+                document.write("Sum of given numbers is: " + addition(Num_n1,Num_n2));
+            </script>
+        </h3>
+    </body>
+</html>
